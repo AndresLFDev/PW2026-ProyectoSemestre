@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+    --background-image-hero: url('./src/img/hero-bg.png');
+}
+
+.bg-image-hero {
+    background-image: var(--background-image-hero);
+    background-size: cover;
+    background-position: center;
+}
